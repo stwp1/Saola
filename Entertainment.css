@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 3.2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+h1, h2 {
+    color: #3838E0;
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+p, small {
+    margin-bottom: 20px;
+}
+.image {
+    margin-bottom: 20px;
+}
+.thumb {
+    width: 100%;
+    max-width: 700px;
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+
+  /* General Footer Styling */
+.footer {
+    background-color: #f1f1f1;
+    padding: 30px 20px;
+    color: #333;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  /* Footer Column Styling */
+  .footer-col {
+    flex: 1 1 200px;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #519ac5;
+  }
+  
+  .footer-col p,
+  .footer-col a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .footer-col a:hover {
+    color: #333;
+  }
+  
+  /* Contact Section Styling */
+  .footer-col.contact img {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col.contact button {
+    margin: 5px 0;
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Social Media Icons Styling */
+  .footer-social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .footer-social-icons a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s;
+  }
+  
+  .footer-social-icons a img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Buttons for Direct Call, Message, Newsletter, and App */
+  .footer-col button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+  }
+  
+  /* Additional Styling for Direct Call and Message Buttons */
+  .footer-col .contact button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

@@ -1,0 +1,256 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif; /* Elegant font for a poetic feel */
+    background-color: #f0f8ff; /* Light background for readability */
+    color: #333;
+    line-height: 1.8; /* Increased line height for better spacing */
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4A90E2; /* Calming blue */
+    margin-bottom: 30px;
+}
+
+/* Text margins */
+.row {
+    display: flex;
+    flex-direction: column; /* Stacking items vertically */
+    margin-bottom: 30px;
+}
+
+.col-md-4, .col-md-8 {
+    padding: 15px;
+}
+
+/* Article section styling */
+h2 {
+    font-size: 2rem;
+    color: rgb(89, 89, 255);
+    margin: 20px 0 10px; /* Space above and below */
+}
+
+/* Summary and paragraph styling */
+.summery {
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: justify; /* Justified text for a neat look */
+}
+
+/* Poetic format */
+.poem {
+    font-style: italic; /* Italics for a poetic touch */
+    margin: 10px 0;
+    line-height: 1.5; /* Slightly tighter line height for poem feel */
+    padding-left: 20px; /* Indentation for a structured look */
+}
+
+/* Apply margins to all text */
+h1, h2, .summery, .poem, p {
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+/* Image styling */
+.thumb {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 180px; /* Align images with text */
+    margin-right: 180px; /* Align images with text */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .col-md-4, .col-md-8 {
+        flex: 1 1 100%; /* Full width for smaller screens */
+    }
+}
+
+/* Enhancing engagement */
+img {
+    transition: transform 0.3s; /* Smooth zoom effect */
+}
+
+img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+
+
+
+
+
+.footer {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+
+  /* General Footer Styling */
+.footer {
+    background-color: #f1f1f1;
+    padding: 30px 20px;
+    color: #333;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  /* Footer Column Styling */
+  .footer-col {
+    flex: 1 1 200px;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #519ac5;
+  }
+  
+  .footer-col p,
+  .footer-col a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .footer-col a:hover {
+    color: #333;
+  }
+  
+  /* Contact Section Styling */
+  .footer-col.contact img {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col.contact button {
+    margin: 5px 0;
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Social Media Icons Styling */
+  .footer-social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .footer-social-icons a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s;
+  }
+  
+  .footer-social-icons a img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Buttons for Direct Call, Message, Newsletter, and App */
+  .footer-col button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+  }
+  
+  /* Additional Styling for Direct Call and Message Buttons */
+  .footer-col .contact button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

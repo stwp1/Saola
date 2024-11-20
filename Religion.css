@@ -1,0 +1,31 @@
+/* Dropdown menu styles */
+.dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    background-color: #a9d624; /* Match the menu color */
+    min-width: 160px; /* Set a minimum width */
+    z-index: 1;
+}
+
+.menu-bar li {
+    position: relative; /* Position parent for absolute dropdown */
+}
+
+.menu-bar li:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-menu li {
+    margin: 0; /* No margin for dropdown items */
+}
+
+.dropdown-menu a {
+    display: block; /* Make the dropdown items fill the width */
+    padding: 10px; /* Add padding for better click area */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.dropdown-menu a:hover {
+    background-color: #519ac5fc; /* Change background on hover */
+}

@@ -1,0 +1,262 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Softer background for comfort */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #2a2ae4; /* Deep blue for emphasis */
+    text-transform: uppercase; /* Adds impact */
+}
+
+/* Section title styling */
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(60, 60, 228);
+    border-bottom: 2px solid rgb(60, 60, 228); /* Underline effect */
+    padding-bottom: 10px;
+}
+
+/* Row and columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.col {
+    flex: 1 1 22%; /* Adjusts size of columns */
+    margin: 10px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    text-align: center;
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.col:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Image styling */
+.image-container {
+    margin-bottom: 10px;
+}
+
+.thumb {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* News section */
+.news-section {
+    margin-top: 30px;
+}
+
+.news-section h2 {
+    color: rgb(41, 41, 234);
+    margin-bottom: 15px;
+    font-size: 2rem; /* Increased size for emphasis */
+}
+
+.news-section p {
+    margin-bottom: 15px;
+}
+
+.news-section img {
+    width: 100%; /* Makes images responsive */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Match outcomes list */
+.news-section ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0;
+}
+
+.news-section li {
+    background-color: #e9ecef; /* Light gray background for list items */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.footer {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+
+  /* General Footer Styling */
+.footer {
+    background-color: #f1f1f1;
+    padding: 30px 20px;
+    color: #333;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  /* Footer Column Styling */
+  .footer-col {
+    flex: 1 1 200px;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #519ac5;
+  }
+  
+  .footer-col p,
+  .footer-col a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .footer-col a:hover {
+    color: #333;
+  }
+  
+  /* Contact Section Styling */
+  .footer-col.contact img {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col.contact button {
+    margin: 5px 0;
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Social Media Icons Styling */
+  .footer-social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .footer-social-icons a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s;
+  }
+  
+  .footer-social-icons a img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Buttons for Direct Call, Message, Newsletter, and App */
+  .footer-col button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+  }
+  
+  /* Additional Styling for Direct Call and Message Buttons */
+  .footer-col .contact button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
